@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Docker
+.dockerignore
+
+# GitHub Actions secrets (should be stored in GitHub Secrets)
+*.pem
+*.key
+
+# AWS credentials and secrets
+.aws/
+credentials
+config
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# OS files
+Thumbs.db
+desktop.ini
